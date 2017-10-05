@@ -22,26 +22,31 @@
 #include <allegro5/allegro.h>                       // For allegro, must be in compiler search path.
 #include <allegro5/allegro_native_dialog.h> 		// for message box
 #include <allegro5/allegro_primitives.h>
+#include <allegro5/allegro_ttf.h>
+#include <allegro5/allegro_font.h>
 #include <random>
 #define RED al_map_rgb(255, 0, 0)
+#define GREEN al_map_rgb(0, 255, 0)
 
 //Constant variables
 const int mapW_c = 844;
 const int mapH_c = 480;
 const char fileName_c[] = "Colorado_844x480.dat";
 ALLEGRO_DISPLAY *printedMap = nullptr;
-ALLEGRO_COLOR red_c = al_map_rgb(255, 0, 0);
-ALLEGRO_COLOR green_c = al_map_rgb(0, 255, 0);
 using namespace std;
 
-
+//Prototypes
 bool MapDataDrawer(apmatrix<short> &map);
 short findMin(apmatrix<short> map);
 short findMax(apmatrix<short> map);
 void drawMap(apmatrix<short> map, short lowestElevation, short highestElevation);
-short drawPath(apmatrix<short> &map, short startRow, int &change);
+int drawPath(apmatrix<short> &map, int startRow, apvector<int> &path);
+int drawAllPaths(apmatrix<short> map);
+void printFont(short lowestElevation);
+int drawDownhillPath(apmatrix<short> &map, int startRow, apvector<int> &path);
 
-// NOTE: argc, argv parameters are required.
+
+//main function
 int main(int argc, char *argv[]) {
     apmatrix<short> map (mapH_c, mapW_c, 0);
     short minElev = 0;
@@ -76,14 +81,15 @@ int main(int argc, char *argv[]) {
     if (readFile == false){
         cerr << "File failed to read data into map matrix variable";
     }
-        short row = 0;
+
         minElev = findMin(map);
         cout << "The lowest point is " << minElev << " m." << endl;
         maxElev = findMax(map);
         cout << "The highest point is " << maxElev << " m." << endl;
         drawMap(map, minElev, maxElev);
-        short totalE = drawPath(map, 0, change);
-        cout << totalE << endl;
+        int totalChange = drawAllPaths(map);
+        cout << totalChange << endl;
+        printFont(minElev);
         al_flip_display();
         al_rest(100);
 
@@ -91,7 +97,7 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 
-//read data from given file into a 2D array (an apmatrix)
+//Read data from given file into a 2D array (an apmatrix)
 bool MapDataDrawer(apmatrix<short> &map)
 {
     ifstream fileIn;
@@ -114,7 +120,7 @@ bool MapDataDrawer(apmatrix<short> &map)
     return true;
 }
 
-//return the minimum value in the map
+//Return the minimum value in the map
 short findMin(apmatrix<short> map)
 {
     short temp = map[0][0];
@@ -161,27 +167,29 @@ void drawMap(apmatrix<short> map, short lowestElevation, short highestElevation)
     }
 }
 
-short drawPath(apmatrix<short> &map, short startRow, int &change)
+//Draws one path based on the row stated
+int drawPath(apmatrix<short> &map, int startRow, apvector<int> &path)
 {
+    srand((unsigned)time(0));
     short direction[3] = {0};
-    short row = startRow;
-    short totalElev = 0;
+    int change = 0;
+    int row = startRow;
+    int totalElev = 0;
 
     for(int j = 0; j < map.numcols()-1; j++){
-        al_draw_pixel(j, row, RED);
         short currentElev = map[row][j];
         short elevRight = map[row][j+1];
         short elevUp = 0;
         short elevDown = 0;
         short choice;
-        cout << change << " ";
+        //cout << change << " ";
         if (row == 0){
-            elevUp = 20000;
+            elevUp = 50000;
             elevDown = map[row+1][j+1];
         }
-        else if (row == 843){
+        else if (row == 479){
             elevUp = map[row-1][j+1];
-            elevDown = 20000;
+            elevDown = 50000;
         }
         else {
             elevUp = map[row-1][j+1];
@@ -197,39 +205,37 @@ short drawPath(apmatrix<short> &map, short startRow, int &change)
 
         totalElev += currentElev;
         if (direction[0] < direction[1] && direction[0] < direction[2]){
-            change += direction[0];
-            row--;
-            cout << row << " ";
-            cout << "up" << endl;
+            choice = 0;
+            //cout << row << " ";
+           // cout << "up" << endl;
         }
         else if (direction[1] < direction[0] && direction[1] < direction[2]){
-            row++;
-            change += direction[1];
-            cout << row << " ";
-            cout << "down" << endl;
+            choice = 1;
+            //cout << row << " ";
+           // cout << "down" << endl;
         }
         else if (direction[2] < direction[0] && direction[2] < direction[1]){
-            change += direction[2];
-            cout << row << " ";
-            cout << "right" << endl;
+            choice = 2;
+            //cout << row << " ";
+           // cout << "right" << endl;
         }
         else if (direction[0] == direction[1] && direction[2] > direction[0]){
             choice = rand() % 2;
-            cout << row << " ";
+            //cout << row << " ";
             //cout << "choice:" << choice << "  ";
-            cout << "dir4" << endl;
+            //cout << "dir4" << endl;
         }
         else if (direction[0] == direction[2] && direction[1] > direction[0]){
-            choice = 2*rand() % 2;
-            cout << row << " ";
+            choice = 2*(rand() % 2);
+            //cout << row << " ";
             //cout << "choice:" << choice << "  ";
-            cout << "dir5" << endl;
+            //cout << "dir5" << endl;
         }
         else if (direction[1] == direction[2] && direction[0] > direction[1]){
-            choice = rand() % 2 + 1;
-            cout << row << " ";
+            choice = (rand() % 2) + 1;
+            //cout << row << " ";
             //cout << "choice:" << choice << "  ";
-            cout << "dir6" << endl;
+            //cout << "dir6" << endl;
         }
         else if (direction[1] == direction[2] && direction[0] == direction[1]){
             choice = rand() % 3;
@@ -249,21 +255,181 @@ short drawPath(apmatrix<short> &map, short startRow, int &change)
                     change += direction[1];
                     break;
 
-            default: change += direction[2];
+            case 2: change += direction[2];
                     break;
+
+            default: break;
         }
 
-
+        choice = -1;
+        path[j] = row;
+        al_draw_pixel(j, row, RED);
     }
-    return totalElev;
+    //cout << "Total cols" << map.numcols() << endl;
+    return change;
 }
 
-//short drawLowestElevPath(map, short startRow){
-    /*short change;
-    for (y = 0; y < map.numcols(); y++){
-        for (x = 0; x < map.numrows(); x++){
-            chooseDirection(map[x+1][y-1], map[x+1][y+1], map[x][y+1], map[x][y], change);
-        }
-    }*/
+//Draws one path based on the row stated
+int drawDownhillPath(apmatrix<short> &map, int startRow, apvector<int> &path, int lowestElevPoint, int &lowestRow)
+{
+    srand((unsigned)time(0));
+    short direction[3] = {0};
+    int change = 0;
+    int row = startRow;
+    int totalElev = 0;
+    int lowestPoint = -1;
+    int tempLowRow = 0;
 
-//}
+    for(int j = 0; j < map.numcols()-1; j++){
+        short currentElev = map[row][j];
+        short elev[3] = {0};
+        short elev[0] = map[row][j+1];
+        short elev[1] = 0;
+        short elev[2] = 0;
+        short choice;
+        //cout << change << " ";
+        if (row == 0){
+            elev[0] = 50000;
+            elev[1] = map[row+1][j+1];
+        }
+        else if (row == 479){
+            elev[0] = map[row-1][j+1];
+            elev[1] = 50000;
+        }
+        else {
+            elev[0] = map[row-1][j+1];
+            elev[1] = map[row+1][j+1];
+        }
+        //cout << "row: " << row << " ";
+        //cout << "column: " << j << "\t";
+        //cout << "current" << currentElev << " elevUP" << elevUp << " ElevD" << elevDown << " ElevR" << elevRight << " ";
+        direction[0] = currentElev - elevUp;
+        direction[1] = currentElev - elevDown;
+        direction[2] = currentElev - elevRight;
+        //cout << "latercur" << currentElev << " dirjuan" << direction[0] << " dirdos" << direction[1] << " dirtres" << direction[2] << " ";
+
+        totalElev += currentElev;
+        if (direction[0] > direction[1] && direction[0] > direction[2]){
+            choice = 0;
+            //cout << row << " ";
+           // cout << "up" << endl;
+        }
+        else if (direction[1] > direction[0] && direction[1] > direction[2]){
+            choice = 1;
+            //cout << row << " ";
+           // cout << "down" << endl;
+        }
+        else if (direction[2] > direction[0] && direction[2] > direction[1]){
+            choice = 2
+            //cout << row << " ";
+           // cout << "right" << endl;
+        }
+        else if (direction[0] == direction[1] && direction[2] < direction[0]){
+            choice = rand() % 2;
+            //cout << row << " ";
+            //cout << "choice:" << choice << "  ";
+            //cout << "dir4" << endl;
+        }
+        else if (direction[0] == direction[2] && direction[1] < direction[0]){
+            choice = 2*(rand() % 2);
+            //cout << row << " ";
+            //cout << "choice:" << choice << "  ";
+            //cout << "dir5" << endl;
+        }
+        else if (direction[1] == direction[2] && direction[0] < direction[1]){
+            choice = (rand() % 2) + 1;
+            //cout << row << " ";
+            //cout << "choice:" << choice << "  ";
+            //cout << "dir6" << endl;
+        }
+        else if (direction[1] == direction[2] && direction[0] == direction[1]){
+            choice = rand() % 3;
+        }
+        else {
+            return -1;
+            cout << "invalid" << endl;
+        }
+
+        switch (choice){
+
+            case 0: row--;
+                    change += direction[0];
+                    break;
+
+            case 1: row++;
+                    change += direction[1];
+                    break;
+
+            case 2: change += direction[2];
+                    break;
+
+            default: break;
+        }
+
+        if (lowestPoint < 0 || elev[choice] < lowestPoint){
+            lowestPoint = elev[choice];
+            tempLowCol = j;
+        }
+
+        choice = -1;
+        path[j] = row;
+        al_draw_pixel(j, row, RED);
+    }
+    //cout << "Total cols" << map.numcols() << endl;
+    lowestRow = tempLowRow;
+    return change;
+}
+
+
+//Draws all the possible paths, then marks the shortest one
+int drawAllPaths(apmatrix<short> map, int algorithm)
+{
+    apvector<int> bestRunCols(map.numcols());
+    apvector<int> runCols(map.numcols());
+    int totalChange = 0;
+    int smallestChange = -1;
+    short smallestRow = 0;
+    int lowestPoint = 0;
+    int lowestRow = 0;
+
+        for (int x = 0; x < map.numrows(); x++){
+            if (algorithm == 0)
+            totalChange = drawPath(map, x, runCols);
+            else {
+            totalChange = drawDownhillPath(map, x, runCols, lowestPoint, lowestRow);
+            al_draw_pixel(x, lowestRow, BLUE);
+            }
+
+            cout << "row: " << x << "totalChange: " << totalChange << endl;
+
+            if (smallestChange < 0 || smallestChange > totalChange){
+                smallestChange = totalChange;
+                smallestRow = x;
+                bestRunCols = runCols;
+            }
+            totalChange = 0;
+        }
+
+        cout << "smallest index: " << smallestRow << endl;
+        for (int i = 0; i < map.numcols(); i++){
+            al_draw_pixel(i, bestRunCols[i], GREEN);
+        }
+
+
+    return smallestChange;
+}
+
+void printFont(short lowestElevation)
+{
+    al_init_font_addon(); // initialize the font addon
+    al_init_ttf_addon();// initialize the ttf (True Type Font) addon
+
+    ALLEGRO_FONT *font = al_load_ttf_font("font.ttf", 30, 0);
+
+    if (!font){
+        cout << "Could not load 'font.ttf'";
+    }
+
+    al_draw_textf(font, al_map_rgb(255,255,255), 200, 50, ALLEGRO_ALIGN_CENTRE, "Lowest Elevation: %d m", lowestElevation);
+
+}
