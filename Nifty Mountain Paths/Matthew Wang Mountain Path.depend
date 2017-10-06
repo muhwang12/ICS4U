@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1507142766 source:d:\ics4u matthew wang\mountain paths\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<cstdlib>
+	<ctime>
+	<apmatrix.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_primitives.h>
+	<random>
+
+1507309110 source:c:\users\matthew\desktop\projects\nifty-mountain-paths-master\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<cstdlib>
+	<ctime>
+	<apmatrix.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_font.h>
+	<random>
+
