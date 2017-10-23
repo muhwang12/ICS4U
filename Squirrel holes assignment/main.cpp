@@ -1,5 +1,19 @@
+/*****************************************************************************
+ *	Name: Matthew Wang                                                       *
+ *	Course: ICS4U                                                            *
+ *	Date: October 23, 2017                                                   *
+ *	                                                                         *
+ *	Purpose: Moves squirrels found in different holes in a tree              *
+ *           around until all the squirrels are in one tree.                 *
+ *	                                                                         *
+ *	Usage:                                                                   *
+ *	                                                                         *
+ *	Revision History:                                                        *
+ *	                                                                         *
+ *	Known Issues:                                                            *
+ *	                                                                         *
+ *****************************************************************************/
 #include <iostream>
-#include <apvector.h>
 
 using namespace std;
 
@@ -23,12 +37,13 @@ int main() {
 
         cout << "Day " << day + 1 << endl;
 
-
+        //Runs function per hole and assigns values into new holes
         for(int position = 0; position < 5; position++){
             assignSquirrels(holes, tempArray, position);
             cout << position << ": " << holes[position] << endl;
         }
 
+        //Updates original array
         for(int i = 0; i < 5; i++){
             holes[i] = tempArray[i];
         }
@@ -41,6 +56,7 @@ int main() {
         }
     }
 
+    //Prints out how many days it takes for all the squirrels to end up in a hole
     if (done){
 
         cout << "Final result: " << endl;
@@ -77,7 +93,7 @@ void assignSquirrels(int h[], int tempArr[], int pos)
         //When the hole has less squirrels than both other holes
         if (h[pos] - 1 < h[pos - 1] && h[pos] - 1 < h[pos + 1]){
 
-            if (h[pos + 1] == h[pos] - 1){
+            if (h[pos] - 1 == h[pos + 1]){
                 movement = 1;
             }
 
@@ -102,7 +118,7 @@ void assignSquirrels(int h[], int tempArr[], int pos)
         if (top){
 
             if (h[pos] - 1 > h[pos - 1]){
-                movement = 2;
+                movement = 1;
             }
 
         }
@@ -110,7 +126,7 @@ void assignSquirrels(int h[], int tempArr[], int pos)
         else {
 
             if (h[pos] - 1 > h[pos + 1]){
-                movement = 1;
+                movement = 2;
             }
 
         }
