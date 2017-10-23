@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void countSquirrels(int h[], int tempArr[], int pos);
+void assignSquirrels(int h[], int tempArr[], int pos);
 bool checkDone(int h[]);
 
 int main() {
@@ -25,7 +25,7 @@ int main() {
 
 
         for(int position = 0; position < 5; position++){
-            countSquirrels(holes, tempArray, position);
+            assignSquirrels(holes, tempArray, position);
             cout << position << ": " << holes[position] << endl;
         }
 
@@ -60,14 +60,14 @@ int main() {
 
 //Checks the current hole, the hole above, and the hole below
 //and compares their values before moving the squirrels accordingly.
-void countSquirrels(int h[], int tempArr[], int pos)
+void assignSquirrels(int h[], int tempArr[], int pos)
 {
     bool top = pos == 0 ? true : false;
     bool bottom = pos == 4 ? true : false;
     int movement = 0;
 
     //The first element of this array is the highest hole,
-    //while the last element of this array is the lowest hole
+    //while the last element of this array is the lowest hole,
     //which means that when the position is lower, its hole is
     //higher on the tree.
 
@@ -119,10 +119,13 @@ void countSquirrels(int h[], int tempArr[], int pos)
     switch (movement){
 
         case 1:     tempArr[pos + 1] += h[pos];
+                    break;
 
         case 2:     tempArr[pos - 1] += h[pos];
+                    break;
 
         default:    tempArr[pos] += h[pos];
+                    break;
 
     }
 
