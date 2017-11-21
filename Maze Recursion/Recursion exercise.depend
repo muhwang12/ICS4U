@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1510856701 source:d:\matthew wang ics4u\recursion exercise\main.cpp
+	<iostream>
+	<apstring.h>
+	<apstring.cpp>
+	<vector>
+
