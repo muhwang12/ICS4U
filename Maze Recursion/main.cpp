@@ -1,23 +1,40 @@
 #include <iostream>
 #include <fstream>
 #include <apmatrix.h>
+#include <allegro5/allegro.h>
+
+#define BLACK al_map_rgb(0, 0, 0)
+#define WHITE al_map_rgb(255, 255, 255)
+#define RED al_map_rgb(255, 0, 0)
 
 apmatrix<char> maze(1, 1);
+const float FPS = 60;
+const int SCREEN_W = 640;       // screen width
+const int SCREEN_H = 480;       // screen height
+ALLEGRO_DISPLAY *screen = NULL;
+ALLEGRO_TIMER *timer = NULL;
+ALLEGRO_EVENT_QUEUE *event_queue = NULL;
 
+bool init_all();
 bool getMaze();
 bool findPath(int x, int y);
 void printMaze();
 
 using namespace std;
 
-const char fileName_c[] = "maze1.txt";
+char fileName[] = "";
 
 
 int main() {
 
-    getMaze();
+    init_all();
+    cout << "Enter file name: ";
+    cin >> fileName;
+
+    if(getMaze()){
     findPath(0, 0);
     printMaze();
+    }
 
 }
 
@@ -29,7 +46,7 @@ bool getMaze()
 
     ifstream fileIn;
 
-    fileIn.open(fileName_c);
+    fileIn.open(fileName);
 
     if (!fileIn){
         cerr << "Unable to open file";
@@ -44,12 +61,11 @@ bool getMaze()
 
         for (int i = 0; i < Rows; i++){
             for (int j = 0; j < Cols; j++){
-                cout << "h ";
                 fileIn >> maze[i][j];
             }
-            cout << endl;
         }
     }
+    printMaze();
     fileIn.close();
 
 
@@ -72,8 +88,6 @@ bool findPath(int x, int y)
     else if(maze[x][y] == '+'){
         return false;
     }
-
-    printMaze();
 
     maze[x][y] = '+';
 
@@ -110,12 +124,36 @@ void printMaze()
         }
         cout << endl;
     }
+    cout << endl;
 }
 
 bool init_all()
 {
-    al_init();
+    if(!al_init()) {
+      cerr << "failed to initialize allegro!" << endl;
+      return false;
+    }
 
+    timer = al_create_timer(1.0 / FPS);
+       if(!timer) {
+          cerr << "failed to create timer" << endl;
+          return false;
+       }
+
+    screen = al_create_display(SCREEN_W, SCREEN_H);
+        if(!screen) {
+          cerr << "failed to create screen!" << endl;
+          return false;
+        }
+
+    event_queue = al_create_event_queue();
+        if(!event_queue) {
+          cerr << "failed to create event_queue!" << endl;
+          al_destroy_display(screen);
+          return false;
+        }
+
+	return true;
 
 }
 
