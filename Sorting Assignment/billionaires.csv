@@ -1,0 +1,539 @@
+age,citizenship,company.name,founded,gdp,industry,name,rank,sector,worth in billions,year
+70,United States,Univision,1955,1.06E+13,Media,A Jerrold Perenchio,151,media,3,2001
+-1,Saudi Arabia,Jeraisy Group,1956,1.83E+11,Consumer,Abdul Al Rahman  Al Jeraisy,336,industrial goods,1.5,2001
+47,United Arab Emirates,Al-Ghurair Group,1960,1.03E+11,Money Management,Abdul Aziz Al Ghurair,251,industrial goods,1.9,2001
+-1,Saudi Arabia,Al Rajhi bank,1957,1.83E+11,Money Management,Abdullah Al Rajhi,222,Banking,2.1,2001
+39,United States,Fidelity Investments,1946,1.06E+13,Money Management,Abigail Johnson,30,investment banking,9.1,2001
+64,Brazil,Companhia Brasileira de Distribui?ao,1948,5.6E+11,"Retail, Restaurant",Abilio dos Santos Diniz,312,retail,1.6,2001
+74,Italy,MaxMara,1951,1.16E+12,Consumer,Achille Maramotti,222,fashion,2.1,2001
+66,Germany,Ratiopharm,1881,1.95E+12,Technology-Medical,Adolf Merckle,222,pharmaceuticals,2.1,2001
+70,United Kingdom,Swire,1816,1.53E+12,Diversified financial,Adrian Swire,222,trading company,2.1,2001
+-1,Japan,Otsuka Holdings,1921,4.16E+12,Technology-Medical,Akihiko Otsuka,251,pharmaceuticals,1.9,2001
+66,Japan,Mori Building,1959,4.16E+12,Real Estate,Akira Mori,130,construction,3.3,2001
+-1,France,Chanel,1909,1.38E+12,Consumer,Alain Wertheimer,70,luxury goods,5,2001
+71,United States,Cablevision Industries,1956,1.06E+13,Media,Alan Gerry,182,media,2.5,2001
+75,Belgium,Groupe Bruxelles Lambert,1956,2.37E+11,Money Management,Albert Frere,490,steel/banking,1,2001
+83,United States,FlightSafety International,1951,1.06E+13,Other,Albert Ueltschi,452,commercial pilot training,1.1,2001
+68,Mexico,Penoles,1960,7.25E+11,Mining and metals,Alberto Bailleres Gonzalez,251,mining,1.9,2001
+-1,United States,Amerindo Investment Advisors,1980,1.06E+13,Money Management,Alberto Vilar,490,investment banking,1,2001
+-1,Netherlands,Heineken International,1864,4.26E+11,Consumer,Alfred Heineken,98,beer,4,2001
+-1,United States,MBNA,1982,1.06E+13,Other,Alfred Lerner,69,credit cards,5.1,2001
+57,Mexico,Banamex,1884,7.25E+11,Money Management,Alfredo Harp Helu,387,banking,1.3,2001
+52,United States,Walmart,1962,1.06E+13,"Retail, Restaurant",Alice Walton,10,retail,18.5,2001
+48,Spain,Construcciones y Contratas,1952,6.26E+11,Constrution,Alicia Koplowitz,490,construction,1,2001
+80,Brazil,Banco Real,1925,5.6E+11,Money Management,Aloysio de Andrade Faria,167,banking,2.8,2001
+-1,Argentina,Loma Negra,1926,2.69E+11,Constrution,Amalia Lacroze de Fortabat,490,cement,1,2001
+65,Spain,Zara,1975,6.26E+11,Consumer,Amancio Ortega,43,Fashion,6.6,2001
+64,United States,Continental Cablevision,1964,1.06E+13,Media,Amos Hosetter Jr,130,media,3.3,2001
+62,Malaysia,Usaha Tegas Sdn Bhd,1984,92783947368,Media,Ananda Krishnan,490,real estate,1,2001
+-1,Switzerland,Kudelski Group,1951,2.79E+11,Technology-Computer,Andre Kudelski,292,software,1.7,2001
+-1,United States,Monster Worldwide,1967,1.06E+13,Technology-Computer,Andrew McKelvey,312,advertising,1.6,2001
+74,Chile,Antofagasta,1888,72300000000,Mining and metals,Andronico Luksic,387,copper,1.3,2001
+-1,United States,Walmart,1962,1.06E+13,Consumer,Ann Kroenke,124,retail,3.4,2001
+81,United States,Cox Enterprises,1898,1.06E+13,Media,Anne Cox Chambers,21,media,11.7,2001
+55,United Kingdom,JCB,1945,1.53E+12,Constrution,Anthony Bamford,387,"heavy equiptment (excavators, backhoes and tractors)",1.3,2001
+64,Ireland,Independent News & Media,1904,1.09E+11,Media,Anthony O'Reilly,421,media,1.2,2001
+57,Sweden,Axel Johnson Group,1873,2.4E+11,Money Management,Antonia Johnson,490,trade investment,1,2001
+82,Portugal,Maceira Liz,1923,1.22E+11,Money Management,Antonio Champalimaud,234,cement,2,2001
+-1,Brazil,Votorantim Group,1919,5.6E+11,Non-consumer industrial,Antonio Ermirio de Moraes,116,"metals, paper, cement",3.5,2001
+71,United States,Sierra Pacific Industries,1949,1.06E+13,Mining and metals,Archie Aldis Emmerson,421,"lumber, real estate",1.2,2001
+58,United States,Home Depot,1979,1.06E+13,"Retail, Restaurant",Arthur Blank,251,retail,1.9,2001
+74,United States,Davis & Rock,1961,1.06E+13,Venture Capital,Arthur Rock,452,venture capitalist,1.1,2001
+58,United States,A.L. Williams & Associates,1977,1.06E+13,Hedge funds,Arthur Williams Jr,387,life insurance ,1.3,2001
+54,United States,Outdoor Systems,1947,1.06E+13,Real Estate,Arturo Moreno,387,advertising,1.3,2001
+70,Germany,"Allianz, Merk Finck & Co",1890,1.95E+12,Money Management,August von Finck,70,banking/insurance,5,2001
+-1,Turkey,Dogus Holding,1951,1.96E+11,Money Management,Ayhan Sahenk,234,construction,2,2001
+55,India,Wipro Limited,1945,4.94E+11,Technology-Computer,Azim Premji,42,software,6.9,2001
+59,United States,Carlson Inc,1938,1.06E+13,Real Estate,Barbara Carlson Gage,363,hospitality,1.4,2001
+77,United States,Cox Enterprises,1898,1.06E+13,Media,Barbara Cox Anthony,21,media,11.7,2001
+64,United States,Johnson & Johnson,1886,1.06E+13,Technology-Medical,Barbara Piasecka Johnson,209,medical supplies,2.2,2001
+59,United States,IAC ,1986,1.06E+13,Technology-Computer,Barry Diller,490,media,1,2001
+51,Taiwan,Quanta Computer,1988,0,Technology-Computer,Barry Lam,452,laptops,1.1,2001
+59,Portugal,Sonae SGPS,1959,1.22E+11,"Retail, Restaurant",Belmiro de Azevedo,490,retail,1,2001
+-1,Switzerland,Edmond de Rothschild Group,1953,2.79E+11,Money Management,Benjamin de Rothschild,490,banking,1,2001
+58,United States,Campbell Soup,1869,1.06E+13,Consumer,Bennett Dorrance,336,soup,1.5,2001
+52,France,LVMH,1981,1.38E+12,Consumer,Bernard Arnault,26,luxury goods,10.7,2001
+70,United Kingdom,Formula One Group,1974,1.53E+12,Other,Bernard Ecclestone,182,racing,2.5,2001
+71,United States,Home Depot,1979,1.06E+13,"Retail, Restaurant",Bernard Marcus,130,home improvement retail,3.3,2001
+59,Canada,Empire Laboratories,1959,7.33E+11,Technology-Medical,Bernard Sherman,209,pharmaceuticals,2.2,2001
+45,United States,Microsoft,1975,1.06E+13,Technology-Computer,Bill Gates,1, Software,58.7,2001
+73,United States,Red McCombs Automotive Group,1958,1.06E+13,Real Estate,Billy Joe McCombs,336,"auto sales, energy",1.5,2001
+59,United States,Paychex,1971,1.06E+13,"Retail, Restaurant",Blase Golisano,272,payroll processing,1.8,2001
+67,United States,Public Storage,1972,1.06E+13,"Retail, Restaurant",Bradley Hughes,387,self-storage,1.3,2001
+-1,United States,Comcast,1969,1.06E+13,Media,Brian Roberts,421,media,1.2,2001
+55,United States,Caxton Associates,1983,1.06E+13,Hedge funds,Bruce Kovner,490,commodities trading,1,2001
+-1,United States,McCaw Cellular,1987,1.06E+13,Media,Bruce McCaw,452,cell phones,1.1,2001
+68,United Kingdom,Schroders,1800,1.53E+12,Money Management,Bruno Schroder,174,banking,2.7,2001
+-1,Italy,Parmalat,1961,1.16E+12,Consumer,Calisto Tanzi,387,dairy,1.3,2001
+63,United States,Berg and Berg,1965,1.06E+13,Real Estate,Carl Berg,336,real estate,1.5,2001
+65,United States,Icahn Enterprises,1968,1.06E+13,Private equity/leveraged buyout,Carl Icahn,109,investment (via holding company),3.7,2001
+85,United States,Marquette Bank,1920,1.06E+13,Money Management,Carl Pohlad,272,banking,1.8,2001
+-1,Italy,CIR Group,1976,1.16E+12,Media,Carlo De Benedetti,387,media,1.3,2001
+49,Mexico,Groupo IUSA,1939,7.25E+11,Media,Carlos Peralta,336,construction,1.5,2001
+61,Mexico,Telmex,1990,7.25E+11,Media,Carlos Slim Helu,25, Communications,10.8,2001
+69,Canada,Seagrams,1857,7.33E+11,Consumer,Charles Bronfman,124,liquor,3.4,2001
+62,United States,H-E-B supermarket,1905,1.06E+13,"Retail, Restaurant",Charles Butt,272,groceries,1.8,2001
+74,United States,Cablevision and HBO,1972,1.06E+13,Media,Charles Dolan,167,media,2.8,2001
+48,United States,dish networtk,1980,1.06E+13,Media,Charles Ergen,35,media,8.8,2001
+68,United States,Franklin Resources,1947,1.06E+13,Money Management,Charles Johnson,222,mutal funds,2.1,2001
+65,United States,Koch industries,1940,1.06E+13,Energy,Charles Koch,138,  Oil refining,3.2,2001
+76,United States,Berkshire Hathaway,1962,1.06E+13,Consumer,Charles Munger,387, Finance,1.3,2001
+63,United States,Charles Schwab Corporation,1971,1.06E+13,Money Management,Charles Schwab,47,brokerage/banking,6.3,2001
+53,United States,Microsoft,1975,1.06E+13,Technology-Computer,Charles Simonyi,490,software,1,2001
+50,United States,Campbell Soup,1869,1.06E+13,Consumer,Charlotte Colket Weber,452,soup,1.1,2001
+78,Hong Kong,Nan Fung Textiles,1954,1.69E+11,Real Estate,Chen Din Hwa,312,cotton yarn,1.6,2001
+75,Hong Kong,Chow Tai Fook Enterprises,1929,1.69E+11,Real Estate,Cheng Yu-tung,174,real estate,2.7,2001
+40,South Korea,SK Corporation,1958,5.33E+11,Consumer,Chey Tae-Won,490,"petrochemicals, textiles",1,2001
+-1,Switzerland,EMS-Chemie,1936,2.79E+11,Non-consumer industrial,Christoph Blocher,336,chemicals,1.5,2001
+58,United States,Pace Foods,1947,1.06E+13,Consumer,Christopher Goldsbury,452,salsa,1.1,2001
+60,United States,Iams,1946,1.06E+13,Consumer,Clayton Mathile,292,pet food,1.7,2001
+68,United States,Bank of North Carolina,1991,1.06E+13,Money Management,Clemmie Spangler Jr,292,banking,1.7,2001
+51,United States,McCaw Cellular,1987,1.06E+13,Media,Craig McCaw,116,cell phones,3.5,2001
+74,Germany,BASF/Boehringer Mannheim/DePuy,1865,1.95E+12,Technology-Medical,Curt Engelhorn,60,pharmaceuticals,5.4,2001
+-1,United States,Slim-Fast,1940,1.06E+13,Consumer,Daniel Abraham,272,beverages,1.8,2001
+29,United States,Ziff Davis Inc,1927,1.06E+13,Hedge funds,Daniel Ziff,421,publishing,1.2,2001
+-1,Thailand,ADIDAS,1924,1.16E+11,Media,David Bromilow,421,clothing ,1.2,2001
+60,United States,PeopleSoft,1987,1.06E+13,Technology-Computer,David Duffield,209,software,2.2,2001
+34,United States,Yahoo!,1994,1.06E+13,Technology-Computer,David Filo,490,software,1,2001
+58,United States,Asylum Records/Geffen Records/Dreamworks,1970,1.06E+13,Media,David Geffen,124,entertainment,3.4,2001
+60,United States,Koch industries,1940,1.06E+13,Energy,David Koch,138, Oil refining,3.2,2001
+77,United States,Dole Food Company,1851,1.06E+13,Consumer,David Murdock,452,food,1.1,2001
+85,United States,Standard Oil,1870,1.06E+13,Energy,David Rockefeller,182,oil,2.5,2001
+77,United States,Whiteco Industries,1935,1.06E+13,Real Estate,Dean White,490,advertising,1,2001
+75,Japan,McDonald's Japan,1971,4.16E+12,"Retail, Restaurant",Den Fujita,179,restaurants,2.6,2001
+-1,United States,AES Corporation,1981,1.06E+13,Other,Dennis Bakke,312,energy,1.6,2001
+66,United States,Washington Companies,1964,1.06E+13,Constrution,Dennis Washington,312,construction,1.6,2001
+-1,India,Reliance,1966,4.94E+11,Consumer,Dhirubhai Ambani,124,textiles,3.4,2001
+56,France,Schlumberger,1920,1.38E+12,Energy,Didier Primat,312,oil field services,1.6,2001
+59,Germany,Holtzbrinck,1948,1.95E+12,Media,Dieter von Holtzbrinck,79,media,4.6,2001
+60,Germany,SAP AG,1972,1.95E+12,Technology-Computer,Dietmar Hopp,162,software,2.9,2001
+36,United States,Ziff Davis Inc,1928,1.06E+13,Hedge funds,Dirk Ziff,421,publishing,1.2,2001
+68,United States,Irvine Company,1864,1.06E+13,Real Estate,Donald Bren,98,real estate,4,2001
+72,United States,The Gap,1969,1.06E+13,"Retail, Restaurant",Donald Fisher,138,clothing ,3.2,2001
+72,United States,Hallmark Cards,1910,1.06E+13,"Retail, Restaurant",Donald Hall,272,greeting cards,1.8,2001
+71,United States,Advance Publications,1909,1.06E+13,Media,Donald Newhouse,70,media,5,2001
+65,United States,Schneider National,1935,1.06E+13,Other,Donald Schneider,490,trucking,1,2001
+-1,United States,Peter Kiewit Sons,1884,1.06E+13,Money Management,Donald Sturm,387,investments,1.3,2001
+55,United States,The Trump Organization,1920,1.06E+13,Real Estate,Donald Trump,292,real estate,1.7,2001
+70,United States,The Gap,1969,1.06E+13,Consumer,Doris Fisher,138,clothing ,3.2,2001
+-1,United States,Campbell Soup,1869,1.06E+13,Consumer,Dorrance Hill Hamilton,490,soup,1,2001
+72,United States,Seagrams,1857,1.06E+13,Consumer,Edgar Bronfman,130,liquor,3.3,2001
+-1,United States,Utah Contstruction Company,1900,1.06E+13,Mining and metals,Edmund Wattis Littlefield,222,construction,2.1,2001
+56,United States,Sid Richardson Gasoline Co,1919,1.06E+13,Energy,Edward Bass,421,oil,1.2,2001
+-1,United States,Gaylord Entertainment Company,1975,1.06E+13,Media,Edward Gaylord,234,media,2,2001
+70,United States,Fidelity Investments,1946,1.06E+13,Money Management,Edward Johnson,79,investment banking,4.6,2001
+67,Canada,Rogers Communications,1962,7.33E+11,Media,Edward Rogers,452,media,1.1,2001
+58,Japan,,0,4.16E+12,Real Estate,Eitaro Itoyama,130,golf courses,3.3,2001
+67,United States,"Kaufman and Broad, SunAmerica",1957,1.06E+13,Money Management,Eli Broad,53,construction/insurance,5.8,2001
+55,Chile,CMPC,1920,72300000000,Consumer,Eliodoro Matte,387,timber and paper,1.3,2001
+33,Mexico,Grupo Televisa,1955,7.25E+11,Media,Emilio Azcarraga Jean,151,media,3,2001
+66,Spain,Grupo Santander,1857,6.26E+11,Money Management,Emilio Botin,363,banking,1.4,2001
+60,Italy,Mediolanum SpA,1982,1.16E+12,Hedge funds,Ennio Doris,146,asset management,3.1,2001
+-1,Spain,Chupa Chups,1958,6.26E+11,Consumer,Enric Bernat,336,confectionary,1.5,2001
+68,Germany,Tenglemann Group,1867,1.95E+12,"Retail, Restaurant",Erivan Haub,98,retail,4,2001
+84,Bermuda,AIG,1919,3680000000,Technology-Medical,Ernest Stempel,222,insurance,2.1,2001
+-1,Argentina,Grupo Clarin,1945,2.69E+11,Media,Ernestina Herrera de Noble,490,media,1,2001
+35,Switzerland,Serono,1906,2.79E+11,Technology-Medical,Ernesto Bertarelli,27,pharmaceuticals,10.5,2001
+50,Spain,Construcciones y Contratas,1952,6.26E+11,Constrution,Esther Koplowitz,490,construction,1,2001
+-1,Canada,Biovail Corporation,1989,7.33E+11,Other,Eugene Melnyk,292,pharmaceuticals,1.7,2001
+-1,Mexico,Femsa,1890,7.25E+11,0,Eugenio Garza Lagnera,182,beverages,2.5,2001
+72,United States,Fayez Sarofim & Co,1958,1.06E+13,Money Management,Fayez Sarofim,234,money management,2,2001
+69,United States,"Mars, Incorperated",1911,1.06E+13,Consumer,Forrest Mars Jr,31,candy,9,2001
+54,Italy,Caltagirone Holdings,1947,1.16E+12,Constrution,Francesco Gaetano Caltagirone,452,cement,1.1,2001
+-1,Italy,e.Biscom-Fastweb,1999,1.16E+12,Money Management,Francesco Micheli,387,new technology,1.3,2001
+64,France,"Pinault-Printemps-Redoute (PPR), now known as Kering",1963,1.38E+12,"Retail, Restaurant",Francois Pinault,47,apparel,6.3,2001
+74,United States,The Weather Channel,1982,1.06E+13,Media,Frank Batten,336,media,1.5,2001
+-1,United States,Finisar,1988,1.06E+13,Technology-Computer,Frank Levinson,490,data storage,1,2001
+70,Australia,Westfield Group,1960,3.79E+11,Real Estate,Frank Lowy,209,shopping centers,2.2,2001
+78,United States,Berkshire Hathaway,1962,1.06E+13,Money Management,Franklin Booth,363, Finance,1.4,2001
+48,United States,Marshall Field and Company,1865,1.06E+13,"Retail, Restaurant",Frederick Field,421,retail,1.2,2001
+74,Germany,Friedrich Flick Industrial Holding,1919,1.95E+12,Money Management,Friedrich Flick,64,coal,5.3,2001
+76,Japan,Iwasaki Sangyo Group,1923,4.16E+12,Real Estate,Fukuzo Iwasaki,95,real estate,4.2,2001
+66,Spain,Melia Hotels International,1956,6.26E+11,"Retail, Restaurant",Gabriel Escarrer,490,hotels,1,2001
+60,Canada,George Weston Limited,1882,7.33E+11,"Retail, Restaurant",Galen Weston,98,food distribution,4,2001
+47,United States,TCI,1968,1.06E+13,Media,Gary Magness,312,cable,1.6,2001
+-1,United States,Global Crossing limited,1997,1.06E+13,Money Management,Gary Winnick,234,fiber optic cables,2,2001
+-1,Switzerland,TBG (Thyssen-Bornemisza Group) Holdings,1926,2.79E+11,Non-consumer industrial,Georg Thyssen-Bornemisza,234,steel,2,2001
+58,United States,Kaiser-Francis Oil Company,1940,1.06E+13,Energy,George Kaiser,198,oil,2.3,2001
+64,United States,"Vision Cable, Metro Mobile, Southern Union",1972,1.06E+13,Money Management,George Lindemann,363,"media, pipelines",1.4,2001
+56,United States,Lucasfilm,1971,1.06E+13,Media,George Lucas,151,Star Wars,3,2001
+81,United States,Mitchell Energy and Development Co,1946,1.06E+13,Energy,George Mitchell,312,shale,1.6,2001
+56,United States,Kohlberg Kravis Roberts,1969,1.06E+13,Private equity/leveraged buyout,George Roberts,336,leveraged buyouts,1.5,2001
+70,United States,Soros Fund Management,1969,1.06E+13,Hedge funds,George Soros,50,hedge funds,6,2001
+-1,Singapore,Overseas Chinese Union Bank,1949,89285087395,Money Management,George Ying Chow Lien,490,banking,1,2001
+-1,United Kingdom,Cadogan Estates,1712,1.53E+12,Real Estate,Gerald Cadogan,490,real estate,1,2001
+49,United Kingdom,Grosvenor Group,1677,1.53E+12,Real Estate,Gerald Cavendish Grosvenor,45,real estate,6.5,2001
+68,France,Louis Dreyfus Group,1851,1.38E+12,Money Management,Gerard Louis-Dreyfus,124,energy,3.4,2001
+-1,Canada,EXFO,1985,7.33E+11,Media,Germain Lamonde,387,service assurance instruments,1.3,2001
+47,Mexico,Grupo Mexio,1978,7.25E+11,Mining and metals,German Larrea Mota Velasco,490,copper,1,2001
+-1,Italy,Fiat,1899,1.16E+12,Consumer,Gianni Agnelli,146,cars,3.1,2001
+33,Israel,Check Point,1993,1.3E+11,Technology-Computer,Gil Shwed,312,software,1.6,2001
+66,Italy,Armani,1975,1.16E+12,Consumer,Giorgio Armani,292,luxury goods,1.7,2001
+59,United States,Taylor Corporation,1975,1.06E+13,Media,Glen Taylor,251,printing and electronics,1.9,2001
+-1,Germany,von Thurn and Taxis family,1615,1.95E+12,Money Management,Gloria von Thurn und Taxis,363,"postal service, beverages",1.4,2001
+60,United States,Getty ,1904,1.06E+13,Energy,Gordon Getty,198,oil,2.3,2001
+72,United States,Intel ,1968,1.06E+13,Technology-Computer,Gordon Moore,60,technology,5.4,2001
+66,Argentina,Petrolera Perez Companc,1968,2.69E+11,Consumer,Gregorio Perez Companc,292,oil,1.7,2001
+60,Germany,Maxingvest AG,1949,1.95E+12,Consumer,Gunter Herz,76,coffee,4.8,2001
+55,Venezuela,Cisneros Group,1929,1.23E+11,Media,Gustavo Cisneros,64,media,5.3,2001
+63,United States,Waste Management,1968,1.06E+13,0,H Wayne Huizenga,209,waste management,2.2,2001
+56,United States,Saban Entertainment,1988,1.06E+13,Media,Haim Saban,387,media,1.3,2001
+74,Sweden,Tetra Pak,1951,2.4E+11,Consumer,Hans Rausing,40,food packaging,7.7,2001
+61,Germany,SAP AG,1972,1.95E+12,Technology-Computer,Hans-Werner Hector,387,software,1.3,2001
+-1,United States,Lenfest Communications,1974,1.06E+13,Media,Harold Lenfest,421,media,1.2,2001
+69,United States,,1974,1.06E+13,Money Management,Harold Simmons,336,leveraged buyouts,1.5,2001
+73,Canada,McCain Foods Limited,1956,7.33E+11,Consumer,Harrison McCain,452,food,1.1,2001
+57,Germany,SAP AG,1972,1.95E+12,Technology-Computer,Hasso Plattner,60,software,5.4,2001
+81,United States,Walmart,1962,1.06E+13,Consumer,Helen Walton,10,retail,18.5,2001
+77,Hong Kong,Sociedade de Turismo e Divers?es de Macau,1962,1.69E+11,Real Estate,Henry Fok,452,casinos,1.1,2001
+82,United States,Pittsburgh Coke & Chemical,1942,1.06E+13,Money Management,Henry Hillman,151,coal,3,2001
+57,United States,Kohlberg Kravis Roberts,1976,1.06E+13,Private equity/leveraged buyout,Henry Kravis,336,leveraged buyouts,1.5,2001
+39,United States,Broadcom Corporation,1991,1.06E+13,Technology-Computer,Henry Nicholas,194,semiconductors,2.4,2001
+-1,United States,Electronic Data Systems,1962,1.06E+13,Technology-Computer,Henry Ross Perot Sr,104,data processing,3.8,2001
+46,United States,Broadcom Corporation,1991,1.06E+13,Technology-Computer,Henry Samueli,198,semiconductors,2.3,2001
+76,Philippines,SM Malls,1960,76261998621,"Retail, Restaurant",Henry Sy,387,retail,1.3,2001
+-1,United States,Gemstar-TV Guide International,1986,1.06E+13,Media,Henry Yuen,336,media,1.5,2001
+61,United States,Allen & Company,1922,1.06E+13,Money Management,Herbert Allen,272,investment banking,1.8,2001
+73,United States,BHC Communications,1977,1.06E+13,Media,Herbert Siegel,421,television,1.2,2001
+73,Japan,Nintendo,1889,4.16E+12,Technology-Computer,Hiroshi Yamauchi,162,video games,2.9,2001
+55,United States,Campbell Soup,1869,1.06E+13,Consumer,Hope Hill Van Beuren,490,soup,1,2001
+61,Germany,Hubert Burda Media,1898,1.95E+12,Media,Hubert Burda,234,media,2,2001
+87,Germany,Mann Mobilia,1938,1.95E+12,"Retail, Restaurant",Hugo Mann,234,furniture,2,2001
+-1,Japan,Kyorin Pharmaceutical,1923,4.16E+12,Technology-Medical,Ikuo Ogihara,452,pharmaceuticals,1.1,2001
+74,Sweden,IKEA,1943,2.4E+11,"Retail, Restaurant",Ingvar Kamprad,17,furniture,13,2001
+67,United States,Qualcomm,1985,1.06E+13,Technology-Computer,Irwin Jacobs,272,software,1.8,2001
+77,Mexico,Groupo Casa Saba,1892,7.25E+11,Diversified financial,Isaac Saba Raffoul,387,pharmaceuticals,1.3,2001
+59,United States,TD Ameritrade,1975,1.06E+13,Money Management,J Joseph Ricketts,452,banking,1.1,2001
+-1,United States,Enterprise,1957,1.06E+13,"Retail, Restaurant",Jack Taylor,167,rental cars,2.8,2001
+77,United States,Stephens Group,1946,1.06E+13,Diversified financial,Jackson Stephens,312,media,1.6,2001
+-1,Israel,Medinol,1992,1.3E+11,Technology-Medical,Jacob and Yehudith Richter,490,pharmaceuticals,1,2001
+-1,United States,"Mars, Incorperated",1911,1.06E+13,Consumer,Jacqueline Mars,31,candy,9,2001
+-1,France,Laboratories Servier,1954,1.38E+12,Diversified financial,Jacques Servier,490,pharmaceuticals,1,2001
+-1,Philippines,Ayala Corporation,1834,76261998621,Money Management,Jaime Augusto Zobel de Ayala,421,construcion,1.2,2001
+-1,Canada,J.D. Irving,1882,7.33E+11,Energy,James Arthur and John Irving,90,timber,4.4,2001
+56,United States,NASCAR,1947,1.06E+13,Other,James France,490,sports,1,2001
+58,United States,SAS institute,1976,1.06E+13,Technology-Computer,James Goodnight,54,software,5.7,2001
+51,United States,"Oakley, Inc",1975,1.06E+13,Consumer,James Jannard,292,apparel and eyewear,1.7,2001
+65,United States,Amkor,1969,1.06E+13,Technology-Computer,James Kim,209,semiconductors,2.2,2001
+82,United States,JM Family Enterprises,1968,1.06E+13,"Retail, Restaurant",James Moran,387,auto dealerships,1.3,2001
+79,United States,Sorenson Companies,1977,1.06E+13,Real Estate,James Sorenson,124,real estate,3.4,2001
+76,United States,Amway,1959,1.06E+13,Consumer,Jay Van Andel,363,consumer goods,1.4,2001
+73,Canada,Jean Coutu Group,1969,7.33E+11,"Retail, Restaurant",Jean Coutu,452,retail,1.1,2001
+63,France,JCDecaux,1964,1.38E+12,Media,Jean-Claude Decaux,209,advertising,2.2,2001
+62,France,Hermes,1837,1.38E+12,Consumer,Jean-Louis Dumas,312,luxury fashion,1.6,2001
+37,United States,Amazon,1994,1.06E+13,"Retail, Restaurant",Jeffrey Bezos,234, technology,2,2001
+36,Canada,Ebay,1995,7.33E+11,Technology-Computer,Jeffrey Skoll,174,e-commerce,2.7,2001
+75,United States,Kohberg Kravis Roberts & Co,1976,1.06E+13,Private equity/leveraged buyout,Jerome Kohlberg,490,private equity,1,2001
+75,Mexico,Aurrera,1958,7.25E+11,"Retail, Restaurant",Jeronimo Arango,272,supermarkets,1.8,2001
+32,United States,Yahoo!,1994,1.06E+13,Technology-Computer,Jerry Yang,490,software,1,2001
+71,United States,Kendall-Jackson,1982,1.06E+13,Consumer,Jess Jackson,292,wine,1.7,2001
+72,Canada,Jim Pattison Group,1961,7.33E+11,Money Management,Jim Pattison,251,autos,1.9,2001
+53,United States,Walmart,1962,1.06E+13,"Retail, Restaurant",Jim Walton,7,retail,18.8,2001
+-1,United States,McDonald's,1940,1.06E+13,"Retail, Restaurant",Joan Kroc,182,restaurants,2.5,2001
+50,South Africa,Rembrandt Group,1940,1.22E+11,Consumer,Johann Rupert,387,tobacco/luxury brands,1.3,2001
+73,Germany,BMW,1916,1.95E+12,Consumer,Johanna Quandt,12,cars,17.8,2001
+69,United States,Boston Scientific,1979,1.06E+13,Technology-Medical,John Abele,452,medical devices,1.1,2001
+63,United States,,1960,1.06E+13,Real Estate,John Arrillaga,292,real estate,1.7,2001
+50,United States,Kleinter Perkins Caufield & Byers,1972,1.06E+13,Venture Capital,John Doerr,490,venture capitalist,1,2001
+57,Ireland,Campbell Soup,1869,1.09E+11,Consumer,John Dorrance,222,soup,2.1,2001
+39,United States,The Gap,1969,1.06E+13,Consumer,John Fisher,272,clothing ,1.8,2001
+56,Norway,Frontline Ltd.,1985,1.74E+11,Media,John Fredriksen,421,oil tankers,1.2,2001
+57,United Kingdom,Matalan,1985,1.53E+12,"Retail, Restaurant",John Hargreaves,251,retail,1.9,2001
+-1,Germany,,0,1.95E+12,Media,John Jahr,251,media,1.9,2001
+86,United States,Metropolitan Broadcasting Corporation,1956,1.06E+13,Media,John Kluge,24,media,10.9,2001
+-1,United States,Molex Incorporated,1938,1.06E+13,Technology-Computer,John Krehbiel Jr,421,electronic interconnectors,1.2,2001
+60,United States,Tele-Communications Inc,1968,1.06E+13,Media,John Malone,182,telecommunications,2.5,2001
+65,United States,Marriot,1927,1.06E+13,Real Estate,John Marriott Jr,421,hotels,1.2,2001
+64,United States,"Mars, Incorperated",1911,1.06E+13,Consumer,John Mars,31,candy,9,2001
+50,United States,McCaw Cellular,1987,1.06E+13,Media,John McCaw,452,cell phones,1.1,2001
+61,United States,Menards,1972,1.06E+13,"Retail, Restaurant",John Menard,234,hardware stores,2,2001
+67,United States,Cisco Systems,1984,1.06E+13,Technology-Computer,John Morgridge,234,software,2,2001
+54,United States,SAS institute,1976,1.06E+13,Technology-Computer,John Sall,167,software,2.8,2001
+92,United States,J.R. Simplot Company,1929,1.06E+13,Consumer,John Simplot,115,agricultural products,3.6,2001
+61,United States,Sobrato Organization,1979,1.06E+13,Real Estate,John Sobrato,336,real estate,1.5,2001
+-1,New Zealand,Todd Energy,1929,53872593337,Energy,John Todd,490,oil,1,2001
+62,Netherlands,BCD Holdings,1975,4.26E+11,Energy,John van Vlissingen,363,travel company,1.4,2001
+55,United States,Walmart,1962,1.06E+13,Consumer,John Walton,8, retail,18.7,2001
+63,United States,Huntsman chemical,1982,1.06E+13,Non-consumer industrial,Jon Huntsman,104,chemicals,3.8,2001
+42,United States,Stryker Corporation,1941,1.06E+13,Technology-Medical,Jon Stryker,421,medical supplies,1.2,2001
+-1,Brazil,Banco Safra (now Saftra Group),1955,5.6E+11,Money Management,Joseph and Moise Safra,162,banking,2.9,2001
+75,United States,,1987,1.06E+13,Other,Joseph Jamail Jr,421,lawsuits,1.2,2001
+-1,Spain,Acciona Trasmediterranea,1916,6.26E+11,Diversified financial,Juan and Carlos March,272,shipping,1.8,2001
+69,United States,Tiger Management Corp,1980,1.06E+13,Hedge funds,Julian Robertson,490,hedge funds,1,2001
+65,Brazil,Banco Bozano Simonsen,1960,5.6E+11,Money Management,Julio Bozano,272,banking,1.8,2001
+-1,Japan,Konami,1969,4.16E+12,Technology-Computer,Kagemasa Kozuki,452,video games,1.1,2001
+77,Germany,Massa,1965,1.95E+12,"Retail, Restaurant",Karl-Heinz Kipp,138,retail,3.2,2001
+58,Japan,Wynn Resorts,1973,4.16E+12,Real Estate,Kazuo Okada,116,casinos,3.5,2001
+-1,United States,McCaw Cellular,1987,1.06E+13,Media,Keith McCaw,452,cell phones,1.1,2001
+66,Turkey,,1956,1.96E+11,Diversified financial,Kemal Uzan,312,construction,1.6,2001
+48,Japan,Mabuchi Motor Company,1946,4.16E+12,Non-consumer industrial,Kenichi Mabuchi,272,electric motors,1.8,2001
+-1,Japan,Heiwa,1946,4.16E+12,Consumer,Kenkichi Nakajima,452,pachinko,1.1,2001
+65,United States,Home Depot,1979,1.06E+13,Money Management,Kenneth Langone,387,home improvement retail,1.3,2001
+69,United Kingdom,Morrisons,1899,1.53E+12,"Retail, Restaurant",Kenneth Morrison,292,supermarkets,1.7,2001
+77,Canada,Thomson Corporation (now Thomson Reuters),1934,7.33E+11,Media,Kenneth Thomson,14,media,16.4,2001
+53,United States,Excel Communications,1988,1.06E+13,Media,Kenneth Troutt,336,telecomm,1.5,2001
+63,Australia,Consolidated Press Holdings Limited,1936,3.79E+11,Media,Kerry Packer,182,media,2.5,2001
+54,Saudi Arabia,National Comercial bank of Saudi Arabia,1953,1.83E+11,Money Management,Khalid Bin Mahfouz,251,banking,1.9,2001
+84,Singapore,Malayan Banking,1960,89285087395,Real Estate,Khoo Teck Puat,151,banking,3,2001
+-1,United States,TeleCommunications Inc,1968,1.06E+13,Media,Kim Magness,336,telecommunications,1.5,2001
+83,United States,MGM Grand,1924,1.06E+13,Real Estate,Kirk Kerkorian,46,real estate,6.4,2001
+-1,Sweden,Tetra Pak,1951,2.4E+11,Consumer,Kirsten Rausing,31,food packaging,9,2001
+53,Denmark,Lego,1949,1.65E+11,Consumer,Kjeld Kirk Kristiansen,251,toys,1.9,2001
+-1,Switzerland,Jacobs Suchard AG,1895,2.79E+11,Consumer,Klaus Jacobs,167,chocolate and coffee,2.8,2001
+60,Germany,SAP AG,1972,1.95E+12,Technology-Computer,Klaus Tschira,179,software,2.6,2001
+-1,Taiwan,Koos group,1940,0,Diversified financial,Koo Chen-fu,363,financial services,1.4,2001
+33,India,Aditya Birla Group,1857,4.94E+11,Mining and metals,Kumar Birla,292,cement,1.7,2001
+33,Japan,Sankyo,1950,4.16E+12,"Retail, Restaurant",Kunio Busujima,421,pachinko gaming machines,1.2,2001
+60,Singapore,Hong Leong Group,1948,89285087395,Diversified financial,Kwek Leng Beng,312,banking,1.6,2001
+60,Japan,Acom,1948,4.16E+12,Money Management,Kyosuke Kinoshita,55,consumer loans,5.6,2001
+50,United Kingdom,ArcelorMittal,1989,1.53E+12,Energy,Lakshmi Mittal,272,steel,1.8,2001
+56,United States,Oracle,1977,1.06E+13,Technology-Computer,Larry Ellison,4, software,26,2001
+90,United States,Standard Oil,1870,1.06E+13,Mining and metals,Laurance Rockefeller,336,oil,1.5,2001
+-1,United States,Loews Corporation,1946,1.06E+13,Consumer,Laurence Tisch,194,retail,2.4,2001
+-1,United States,UVSG,1975,1.06E+13,Media,Lawrence Flinn Jr,292,media,1.7,2001
+44,United States,Sid Richardson Gasoline Co,1919,1.06E+13,Energy,Lee Bass,92,oil,4.3,2001
+-1,Hong Kong,Hysan Development,1920,1.69E+11,Real Estate,Lee Hon Chiu,490,real estate,1,2001
+59,South Korea,Samsung,1938,5.33E+11,Technology-Computer,Lee Kun-Hee,312,electronics,1.6,2001
+76,Singapore,Oversea-Chinese Banking Corporation,1919,89285087395,Money Management,Lee Seng Wee,421,banking,1.2,2001
+73,Hong Kong,Henderson Land Development,1976,1.69E+11,Real Estate,Lee Shau Kee,52,real estate,5.9,2001
+-1,Germany,Kirch Group,1956,1.95E+12,Media,Leo Kirch,20,media,12,2001
+81,United States,Helmsley hotels,1938,1.06E+13,Real Estate,Leona Helmsley,251,real estate,1.9,2001
+67,United States,Est?Lauder,1946,1.06E+13,Consumer,Leonard Lauder,104,makeup,3.8,2001
+62,United States,Hartz Group,1932,1.06E+13,Real Estate,Leonard Stern,194,"pet supplies, real estate",2.4,2001
+65,Italy,?Luxottica,1961,1.16E+12,Consumer,Leonardo Del Vecchio,43,glasses,6.6,2001
+81,United States,ILFC,1973,1.06E+13,Consumer,Leslie Gonda,272,aircraft leasing,1.8,2001
+59,United States,Limited Brands,1963,1.06E+13,Consumer,Leslie Wexner,162,clothing,2.9,2001
+75,United States,General Dynamics,1919,1.06E+13,Money Management,Lester Crown,146,aerospace and defense,3.1,2001
+72,Hong Kong,Cheung king,1971,1.69E+11,Real Estate,Li Ka-shing,18,real estate,12.6,2001
+78,France,L'Oreal,1909,1.38E+12,Consumer,Liliane Bettencourt,15,cosmetics,15.6,2001
+35,Venezuela,Empresas Polar,1941,1.23E+11,Consumer,Lorenzo Mendoza,82,beer,4.5,2001
+56,Mexico,Cemex,1906,7.25E+11,Constrution,Lorenzo Zambrano,162,cement,2.9,2001
+52,United States,ILFC,1973,1.06E+13,Consumer,Louis Gonda,222,aircraft leasing,2.1,2001
+-1,United States,Clear Channel Communications,1972,1.06E+13,Media,Lowry Mays,251,media,1.9,2001
+65,Italy,Benetton Group,1965,1.16E+12,Consumer,Luciano Benetton,57,fashion,5.5,2001
+66,Philippines,Asia Brewery,1982,76261998621,Money Management,Lucio Tan,421,beverages,1.2,2001
+68,Colombia,"Grupo Aval Acciones y Valores, SA",1971,98200000000,Money Management,Luis Carlos Sarmiento Angulo,336,banking,1.5,2001
+87,Denmark,Maersk Group,1905,1.65E+11,Diversified financial,Maersk McKinney Moller,209,shipping,2.2,2001
+-1,United States,First Allied Corporation,1984,1.06E+13,Consumer,Malcolm Green Chace III,490,"investments/real estate, sports teams",1,2001
+66,Switzerland,Glencore,1974,2.79E+11,Hedge funds,Marc Rich,421,oil,1.2,2001
+-1,Italy,Pirelli Group,1872,1.16E+12,Consumer,Marco Tronchetti Provera,452,tires,1.1,2001
+77,United States,Harbart Corporation,1993,1.06E+13,Other,Marguerite Harbert,421,construction,1.2,2001
+37,Mexico,Grupo Modelo,1925,7.25E+11,Consumer,Maria Asuncion Aramburuzabala,272,beer,1.8,2001
+62,United States,Carlson Inc,1938,1.06E+13,Real Estate,Marilyn Carlson Nelson,363,hospitality,1.4,2001
+35,Israel,Check Point,1993,1.3E+11,Technology-Computer,Marius Nacht,336,software,1.5,2001
+40,United States,Broadcast.com,1995,1.06E+13,Media,Mark Cuban,363,web broadcasting,1.4,2001
+-1,United Kingdom,Regus,1989,1.53E+12,"Retail, Restaurant",Mark Dixon,490,business centers,1,2001
+65,United States,Ingram Industries,1946,1.06E+13,"Retail, Restaurant",Martha Ingram,209,transportation,2.2,2001
+49,France,Bouygues S.A.,1952,1.38E+12,Media,Martin Bouygues,198,construction,2.3,2001
+-1,Switzerland,BZ Bank,1985,2.79E+11,Money Management,Martin Ebner,130,banking,3.3,2001
+75,United States,Davis Petroleum,1945,1.06E+13,Energy,Marvin Davis,82,oil,4.5,2001
+51,United States,Campbell Soup,1869,1.06E+13,Consumer,Mary Alice Dorrance Malone,272,soup,1.8,2001
+72,United States,PanAmSat,1984,1.06E+13,Media,Mary Anselmo,452,satallite communications,1.1,2001
+-1,Japan,Sony,1947,4.16E+12,Media,Masao Morita,251,electronics,1.9,2001
+76,Japan,Ito-Yokado,1961,4.16E+12,"Retail, Restaurant",Masatoshi Ito,82,retail,4.5,2001
+43,Japan,Softbank,1981,4.16E+12,Media,Masayoshi Son,55,technology,5.6,2001
+75,United States,AIG,1919,1.06E+13,Money Management,Maurice Greenberg,92,insurance,4.3,2001
+56,Turkey,Cukurova Holding,1923,1.96E+11,Media,Mehmet Karamehmet,109,"textiles, industrial goods, media",3.7,2001
+-1,Germany,Metro AG,1923,1.95E+12,"Retail, Restaurant",Michael and Rainer Schmidt-Ruthenbeck,182,retail,2.5,2001
+-1,United States,Tellabs,1975,1.06E+13,Media,Michael Birck,312,telecom,1.6,2001
+58,United States,Bloomberg,1981,1.06E+13,Media,Michael Bloomberg,82, finance,4.5,2001
+36,United States,Dell,1984,1.06E+13,Technology-Computer,Michael Dell,27,technology,10.5,2001
+54,Liechtenstein,,0,2491800559,Constrution,Michael Hilti,363,,1.4,2001
+47,United States,CDW Corporation,1984,1.06E+13,Technology-Computer,Michael Krasny,251,retail,1.9,2001
+50,Canada,Otto Group,1950,7.33E+11,Hedge funds,Michael Lee-Chin,490,mail order retail,1,2001
+57,Germany,Metro AG,1923,1.95E+12,"Retail, Restaurant",Michael Otto,70,retail,5,2001
+74,Italy,Ferrero spa,1946,1.16E+12,Consumer,Michele Ferrero,292,chocolates,1.7,2001
+51,United States,Carnival Corporation,1972,1.06E+13,"Retail, Restaurant",Micky Arison,96,cruises,4.1,2001
+36,Russia,Alfa Group,1989,3.07E+11,Energy,Mikhail Fridman,387,investment banking,1.3,2001
+37,Russia,Yukos,1993,3.07E+11,Energy,Mikhail Khodorkovsky,194,oil,2.4,2001
+44,United States,Danaher,1979,1.06E+13,Technology-Medical,Mitchell Rales,336,venture capitalist,1.5,2001
+51,Italy,Prada,1913,1.16E+12,Consumer,Miuccia Prada,363,luxury goods,1.4,2001
+-1,Saudi Arabia,Abdul Latif Jameel Co. Ltd,1945,1.83E+11,"Retail, Restaurant",Mohammed Jameel,151,auto dealerships,3,2001
+63,United States,Boston Properties,1970,1.06E+13,Real Estate,Mortimer Zuckerman,421,real estate,1.2,2001
+70,Turkey,Koc Holding,1926,1.96E+11,Money Management,Mustafa Rahmi Koc,182,"energy, retail, manufacturing",2.5,2001
+49,United States,Walmart,1962,1.06E+13,"Retail, Restaurant",Nancy Walton Laurie,209, retail,2.2,2001
+57,Kuwait,Kharafi Group,1956,34890773880,Constrution,Nasser Al-Kharafi,50,construction,6,2001
+72,Singapore,Far East Organization,1962,89285087395,Real Estate,Ng Teng Fong,116,real estate,3.5,2001
+55,South Africa,De Beers,1888,1.22E+11,Mining and metals,Nicky Oppenheimer,82,diamonds,4.5,2001
+72,Switzerland,Swatch Group,1986,2.79E+11,Consumer,Nicolas Hayek,116,watches,3.5,2001
+-1,Hong Kong,Chinachem Group,1960,1.69E+11,Real Estate,Nina Wang,109,chemicals,3.7,2001
+55,Japan,Suntory,1899,4.16E+12,Consumer,Nobutada Saji,40,brewery,7.7,2001
+-1,United States,Gateway,1985,1.06E+13,Media,Norman Waitt,490,computers,1,2001
+71,Egypt,Orascom,1950,97600000000,Constrution,Onsi Sawiris,490,construction,1,2001
+77,Germany,Metro AG,1963,1.95E+12,"Retail, Restaurant",Otto Beisheim,182,groceries,2.5,2001
+-1,Italy,Bulgari,1884,1.16E+12,Consumer,Paolo Bulgari,251,luxury goods,1.9,2001
+-1,United States,,0,1.06E+13,Other,Patricia Short,452,,1.1,2001
+-1,France,Hermes,1837,1.38E+12,Other,Patrick Guerrand,387,luxury fashion,1.3,2001
+63,United States,International Data Goup,1964,1.06E+13,Technology-Computer,Patrick McGovern,234,technology publishing,2,2001
+63,United States,Aon Corporation,1982,1.06E+13,Hedge funds,Patrick Ryan,452,risk management,1.1,2001
+50,Hong Kong,Johnson Electric,1959,1.69E+11,Consumer,Patrick Wang,96,automotive parts,4.1,2001
+48,United States,Microsoft,1975,1.06E+13,Technology-Computer,Paul Allen,3,technology,30.4,2001
+-1,France,Promodes,1961,1.38E+12,"Retail, Restaurant",Paul-Louis Halley,60,retail,5.4,2001
+86,United States,Bass Brothers Enterprises,1960,1.06E+13,Energy,Perry Bass,312,oil,1.6,2001
+58,United States,"Spear, Leeds & Kellogg",1931,1.06E+13,Money Management,Peter Kellogg,234,investment banking,2,2001
+60,United States,Boston Scientific,1979,1.06E+13,Technology-Medical,Peter Nicholas,421,medical devices,1.2,2001
+55,Hong Kong,Worldwide Shipping Group,1955,1.69E+11,Real Estate,Peter Woo,452,real estate,1.1,2001
+61,United States,Circle A Drilling,1961,1.06E+13,Money Management,Philip Anschutz,16,"oil, railroad, investments",15.3,2001
+63,United States,Nike,1964,1.06E+13,Consumer,Philip Knight,92,apparel,4.3,2001
+65,France,Adecco,1996,1.38E+12,"Retail, Restaurant",Philippe Foriel-Destezet,138,HR consulting,3.2,2001
+-1,United States,Standard Oil,1870,1.06E+13,Energy,Pierce Marshall,387,oil,1.3,2001
+71,France,Sodexo,1960,1.38E+12,"Retail, Restaurant",Pierre Bellon,363,catering,1.4,2001
+-1,Switzerland,AxialPar,2001,2.79E+11,Technology-Medical,Pierre Landolt,49,venture capitalist,6.1,2001
+33,United States,Ebay,1995,1.06E+13,Technology-Computer,Pierre Omidyar,82,e-commerce,4.5,2001
+65,Switzerland,Glencore,1974,2.79E+11,Energy,Pincus Green,490,oil,1,2001
+74,United States,Loews Corporation,1946,1.06E+13,Consumer,Preston Tisch,138,retail,3.2,2001
+44,Saudi Arabia,Kingdom Holding Company,1980,1.83E+11,Money Management,Prince Alwaleed Bin Talal Alsaud,6,construction/real estate/banking,20,2001
+-1,Indonesia,Sampoerna,1913,1.6E+11,Consumer,Putera Sampoerna,387,cigarette,1.3,2001
+60,Malaysia,Hong Leong Financial Group,1963,92783947368,Money Management,Quek Leng Chan,452,financial services,1.1,2001
+53,Indonesia,Gudang Garam,1958,1.6E+11,Consumer,Rachman Halim,292,cigarette,1.7,2001
+80,Spain,Ferrovial,1952,6.26E+11,Constrution,Rafael del Pino,363,construction,1.4,2001
+57,Lebanon,Saudi Oger,1978,17649751244,Constrution,Rafik Al-Hariri,146,construction,3.1,2001
+62,United States,Ralph Lauren,1967,1.06E+13,Consumer,Ralph Lauren,198,clothing,2.3,2001
+58,United States,Hunt Oil. Co,1934,1.06E+13,Energy,Ray Hunt,198,oil,2.3,2001
+79,Germany,Bertelsmann,1835,1.95E+12,Media,Reinhard Mohn,82,publishing,4.5,2001
+-1,Germany,Adolf Wurth Group,1945,1.95E+12,Non-consumer industrial,Reinhold Wuerth,116,screws,3.5,2001
+-1,Russia,Gazprom,1989,3.07E+11,Energy,Rem Viakhirev,336,natural gas,1.5,2001
+-1,Italy,Tiscali,1988,1.16E+12,Technology-Computer,Renato Soru,421,internet service company,1.2,2001
+45,Mexico,Grupo Salinas/Group Elektra,1906,7.25E+11,"Retail, Restaurant",Ricardo Salinas Pliego,151,telecommunications,3,2001
+50,United Kingdom,Virgin Group,1972,1.53E+12,Media,Richard Branson,272,media,1.8,2001
+75,United States,Amway,1959,1.06E+13,Consumer,Richard DeVos,312,consumer goods,1.6,2001
+65,United States,EMC Corporation,1979,1.06E+13,Technology-Computer,Richard Egan,234,data storage,2,2001
+66,United States,Cintas Corporation,1968,1.06E+13,"Retail, Restaurant",Richard Farmer,272,uniforms,1.8,2001
+-1,United States,Goldman Insurance and Risk Management,1950,1.06E+13,Hedge funds,Richard Goldman,336,insurance,1.5,2001
+54,United States,Kinder Morgan Energy Partners,1997,1.06E+13,Non-consumer industrial,Richard Kinder,336,energy,1.5,2001
+34,Hong Kong,Cheung king,1971,1.69E+11,Media,Richard Li,234,real estate,2,2001
+62,United States,Marriot,1927,1.06E+13,Real Estate,Richard Marriott,336,hotels,1.5,2001
+60,United States,,1960,1.06E+13,Real Estate,Richard Peery,292,real estate,1.7,2001
+66,Australia,Visy Industries,1948,3.79E+11,Consumer,Richard Pratt,387,paper,1.3,2001
+56,United States,ENSCO International,1986,1.06E+13,Real Estate,Richard Rainwater,251,hedge funds,1.9,2001
+-1,United States,Mellon,1869,1.06E+13,Money Management,Richard Scaife,421,"banking, oil, aluminum",1.2,2001
+60,United States,Best Buy,1966,1.06E+13,"Retail, Restaurant",Richard Schulze,198,retail,2.3,2001
+48,United States,Bechtel Corporation,1898,1.06E+13,Constrution,Riley Bechtel,151,construction,3,2001
+53,United States,Sid Richardson Gasoline Co,1919,1.06E+13,Energy,Robert Bass,151,oil,3,2001
+73,Germany,Robert Bosch GmbH,1886,1.95E+12,Consumer,Robert Bosch Jr,198,auto engines,2.3,2001
+-1,United States,ClubCorp,1957,1.06E+13,Real Estate,Robert Dedman,452,golf courses,1.1,2001
+47,United States,The Gap,1969,1.06E+13,Consumer,Robert Fisher,251,clothing ,1.9,2001
+54,United States,Black Entertainment Television,1980,1.06E+13,0,Robert Johnson,312,media,1.6,2001
+78,Malaysia,Shangri-La Hotels,1971,92783947368,Money Management,Robert Kuok,109,hotels,3.7,2001
+64,United States,McLane Company,1894,1.06E+13,"Retail, Restaurant",Robert McLane,452,groceries,1.1,2001
+60,United States,Cogen Technologies,1983,1.06E+13,Energy,Robert McNair,363,cogeneration,1.4,2001
+79,United States,,1912,1.06E+13,0,Robert Naify,234,movie theatres,2,2001
+74,United States,Hyatt,1957,1.06E+13,Real Estate,Robert Pritzker,57,hotels,5.5,2001
+87,United States,Rich Products,1945,1.06E+13,Consumer,Robert Rich Sr,292,food processing,1.7,2001
+47,United States,Tana Exploration Company,1980,1.06E+13,Money Management,Robert Rowling,182,oil,2.5,2001
+31,United States,Ziff Davis Inc,1928,1.06E+13,Hedge funds,Robert Ziff,421,publishing,1.2,2001
+-1,Mexico,Banamex,1884,7.25E+11,Money Management,Roberto Hernandez Ramirez,387,banking,1.3,2001
+-1,Brazil,Globo Organizations,1925,5.6E+11,Media,Roberto Marinho,336,media,1.5,2001
+-1,Argentina,Techint,1945,2.69E+11,Diversified financial,Roberto Rocca,312,steel,1.6,2001
+-1,United States,AES,1981,1.06E+13,Energy,Roger Sant,292,energy,1.7,2001
+46,Germany,Gerling Konzern,1904,1.95E+12,Hedge funds,Rolf Gerling,78,insurance,4.7,2001
+34,Russia,Millhouse LLC,1988,3.07E+11,Energy,Roman Abramovich,363,private investment company,1.4,2001
+-1,Canada,Mancal Group,1914,7.33E+11,Constrution,Ron and Fred Mannix,421,oil,1.2,2001
+48,United States,Yucaipa Companies,1986,1.06E+13,"Retail, Restaurant",Ronald Burkle,272,private equity,1.8,2001
+59,United States,Est?Lauder,1946,1.06E+13,Consumer,Ronald Lauder,138,makeup,3.2,2001
+58,United States,MacAnderws and Forbes Holdings,1980,1.06E+13,Private equity/leveraged buyout,Ronald Perelman,130,holding company,3.3,2001
+46,United States,Stryker Corporation,1941,1.06E+13,Technology-Medical,Ronda Stryker,452,medical supplies,1.1,2001
+-1,China,China International Trust and Investment Corp,1978,1.33E+12,Money Management,Rong Yiren,387,investment,1.3,2001
+71,United States,Disney,1923,1.06E+13,Media,Roy Disney,452,entertainment,1.1,2001
+-1,Germany,Oetker-Gruppe,1891,1.95E+12,Consumer,Rudolf Oetker,90,food,4.4,2001
+60,United States,Franklin Resources,1947,1.06E+13,Money Management,Rupert Johnson,292,mutal funds,1.7,2001
+70,United States,News Limited,1923,1.06E+13,Media,Rupert Murdoch,39,media,7.8,2001
+74,Japan,Promise Consumer Finance,1962,4.16E+12,Money Management,Ryoichi Jinnai,130,finance,3.3,2001
+57,United States,Walmart,1962,1.06E+13,"Retail, Restaurant",S Robson Walton,9,retail,18.6,2001
+68,Turkey,Sabanci Holdings,1926,1.96E+11,Consumer,Sakip Sabanci,116,textiles,3.5,2001
+89,Saudi Arabia,Al-Rajhi Bank,1957,1.83E+11,Money Management,Saleh Al Rajhi,387,banking,1.3,2001
+59,Saudi Arabia,Dallah al Baraka Group,1969,1.83E+11,Money Management,Saleh Kamel,151,airport maintenance,3,2001
+59,United States,Equity Group Investments,1968,1.06E+13,Real Estate,Sam Zell,251,real estate,1.9,2001
+-1,Israel,Zodiac Maritime Agencies,1950,1.3E+11,Consumer,Sammy Ofer,222,shipping,2.1,2001
+72,United States,S. C. Johnson & Son,1886,1.06E+13,Consumer,Samuel Johnson,82,cleaning supplies,4.5,2001
+-1,United States,LeFrack ,1905,1.06E+13,Real Estate,Samuel LeFrak,174,real estate,2.7,2001
+73,United States,Advance Publications,1909,1.06E+13,Media,Samuel Newhouse,70,media,5,2001
+68,United States,"Cogan, Berlind, Weill & Levitt",1960,1.06E+13,Money Management,Sanford Weill,312,stock broker,1.6,2001
+-1,United States,i2 Technologies,1988,1.06E+13,Money Management,Sanjiv Sidhu,109,software,3.7,2001
+-1,United States,Juniper Networks,1996,1.06E+13,Technology-Computer,Scott Kriens,490,networking equipment,1,2001
+-1,United States,Sun Microsystems,1982,1.06E+13,Technology-Computer,Scott McNealy,292,microchips,1.7,2001
+76,France,Dassault Group,1914,1.38E+12,Other,Serge Dassault,75,aviation,4.9,2001
+73,Switzerland,Globus,1928,2.79E+11,Other,Sergio Mantegazza,222,travel company,2.1,2001
+43,Israel,Carnival Corporation,1972,1.3E+11,"Retail, Restaurant",Shari Arison,109,banking,3.7,2001
+67,United States,Las Vegas Sands,1988,1.06E+13,Real Estate,Sheldon Adelson,490, casinos,1,2001
+55,India,HCL,1976,4.94E+11,Technology-Computer,Shiv Nadar,209,technology,2.2,2001
+-1,Japan,Taisho Pharmaceutical,1912,4.16E+12,Technology-Medical,Shoji Uehara,490,pharmaceuticals,1,2001
+58,United States,Sid Richardson Gasoline Co,1919,1.06E+13,Energy,Sid Bass,104,oil,3.8,2001
+73,United States,Jones Apparel Group,1970,1.06E+13,Consumer,Sidney Kimmel,452,apparel,1.1,2001
+64,Italy,Fininvest,1978,1.16E+12,Media,Silvio Berlusconi,29,media,10.3,2001
+42,Italy,Fastweb,1999,1.16E+12,Media,Silvio Scaglia,387,telecommunications,1.3,2001
+-1,Greece,Intracom,1977,1.36E+11,Technology-Computer,Socrates Kokkalis,421,software,1.2,2001
+55,Japan,Benesse Corporation,1955,4.16E+12,Other,Soichiro Fukutake,363,publishing,1.4,2001
+54,Greece,EFG International,1938,1.36E+11,Money Management,Spiro Latsis,79,shipping,4.6,2001
+47,United States,Duquesne Capital,1981,1.06E+13,Hedge funds,Stanley Druckenmiller,363,hedge funds,1.4,2001
+79,Hong Kong,Sociedade de Turismo e Divers?es de Macau,1962,1.69E+11,Real Estate,Stanley Ho,452,casinos,1.1,2001
+67,United States,Hubbard Broadcasting Inc,1925,1.06E+13,Media,Stanley Hubbard,312,media,1.6,2001
+53,Sweden, H&M,1947,2.4E+11,Consumer,Stefan Persson,64, fashion,5.3,2001
+-1,Germany,Schorghuber Group,1954,1.95E+12,Real Estate,Stefan Schoerghuber,251,real estate,1.9,2001
+44,Norway,RIMI,1977,1.74E+11,"Retail, Restaurant",Stein Erik Hagen,363,groceries,1.4,2001
+-1,Greece,Easy Jet,1995,1.36E+11,"Retail, Restaurant",Stelios Haji-Ioannou,336,airline,1.5,2001
+53,Switzerland,Holcim,1912,2.79E+11,Money Management,Stephan Schmidheiny,116,construction,3.5,2001
+75,United States,Bechtel Corporation,1898,1.06E+13,Constrution,Stephen Bechtel,151,construction,3,2001
+49,United States,AOL,1985,1.06E+13,Technology-Computer,Stephen Case,363,internet company,1.4,2001
+44,United States,Microsoft,1975,1.06E+13,Technology-Computer,Steven Ballmer,13,technology,16.6,2001
+46,United States,Apple,1976,1.06E+13,Technology-Computer,Steven Jobs,387,technology,1.3,2001
+48,United States,Danaher,1979,1.06E+13,Technology-Medical,Steven Rales,336,venture capitalist,1.5,2001
+54,United States,DreamWorks,1994,1.06E+13,Media,Steven Spielberg,222,movies,2.1,2001
+55,United States,International Lease Finance Corporation,1973,1.06E+13,Other,Steven Udvar-Hazy,167,aircraft leasing,2.8,2001
+-1,Saudi Arabia,General Contracting Company,1947,1.83E+11,Diversified financial,Suliman Olayan,38,oil infrastructure,8,2001
+77,United States,National Amusements,1936,1.06E+13,Media,Sumner Redstone,18,media,12.6,2001
+68,United States,Berkshire Hathaway,1962,1.06E+13,Consumer,Susan Thompson Buffett,198, Finance,2.3,2001
+-1,United States,Matrix,1980,1.06E+13,Consumer,Sydell Miller,421,hair care products,1.2,2001
+54,Japan,YKK,1934,4.16E+12,Consumer,Tadahiro Yoshida,209,zippers,2.2,2001
+52,Japan,Fast Retailing/Uniqlo,1963,4.16E+12,"Retail, Restaurant",Tadashi Yanai,76,apparel,4.8,2001
+55,Japan,Keyence,1974,4.16E+12,Technology-Computer,Takemitsu Takizaki,182,technology,2.5,2001
+62,United States,CNN,1970,1.06E+13,Media,Ted Turner,35,media,8.8,2001
+-1,Canada,Mitel,1972,7.33E+11,Technology-Computer,Terence Matthews,251,technology consulting,1.9,2001
+-1,Taiwan,Foxconn,1974,0,Technology-Computer,Terry Gou,198,technology,2.3,2001
+74,Japan,Funai Electric,1961,4.16E+12,Technology-Computer,Tetsuro Funai,312,electronics,1.6,2001
+-1,Thailand,Advanced Info Service,1986,1.16E+11,Real Estate,Thaksin Shinawatra,421,mobile phones,1.2,2001
+-1,Germany,Aldi,1913,1.95E+12,"Retail, Restaurant",Theo and Karl Albrecht,5,groceries,25,2001
+38,United States,Gateway,1985,1.06E+13,Technology-Computer,Theodore Waitt,234,computers,2,2001
+64,United States,Janus Capital Group,1969,1.06E+13,Money Management,Thomas Bailey,490,mutual funds,1,2001
+68,United States,The Flatley Co,1958,1.06E+13,Real Estate,Thomas Flatley,452,real estate,1.1,2001
+62,United States,Hostpital Corporation of America,1968,1.06E+13,Technology-Medical,Thomas Frist,363,hospitals,1.4,2001
+50,United States,Hyatt,1957,1.06E+13,Real Estate,Thomas Pritzker,57,hotels,5.5,2001
+55,Switzerland,Holcim,1912,2.79E+11,Constrution,Thomas Schmidheiny,179,cement,2.6,2001
+48,United States,Siebel Systems,1993,1.06E+13,Technology-Computer,Thomas Siebel,209,software,2.2,2001
+65,Malaysia,Rimbunan Hijau Group,1976,92783947368,Mining and metals,Tiong Hiew King,336,timber,1.5,2001
+58,Japan,Takenaka Corporation,1610,4.16E+12,Constrution,Toichi Takenaka,490,construction,1,2001
+36,United States,Platinum Equity,1995,1.06E+13,Private equity/leveraged buyout,Tom Gores,490,private equity,1,2001
+76,Taiwan,Lin Yuan Group,1962,0,Hedge funds,Tsai Wan-lin,104,banking and insurance,3.8,2001
+57,United States,Ty Inc.,1986,1.06E+13,Consumer,Ty Warner,98,toys,4,2001
+50,Russia,Lukoil,1990,3.07E+11,Energy,Vagit Alekperov,387,oil,1.3,2001
+56,Hong Kong,Li & Fung Group,1906,1.69E+11,"Retail, Restaurant",Victor Fung,452,supply chain,1.1,2001
+-1,Russia,Gazprom,1989,3.07E+11,Energy,Viktor Chernomyrdin,452,natural gas,1.1,2001
+-1,United States,Patrol Software North America,1992,1.06E+13,Technology-Computer,Vincent Smith,387,software,1.3,2001
+46,United States,Sun Microsystems,1982,1.06E+13,Venture Capital,Vinod Khosla,490,software,1,2001
+-1,United Kingdom,Associated Newspapers,1896,1.53E+12,Media,Viscount Rothermere,452,media,1.1,2001
+49,Russia,Surgutneftegaz,1993,3.07E+11,Energy,Vladimir Bogdanov,312,oil,1.6,2001
+40,Russia,Interros,1991,3.07E+11,Mining and metals,Vladimir Potanin,272,private investment company,1.8,2001
+71,Canada,McCain Foods Limited,1956,7.33E+11,Consumer,Wallace McCain,387,food,1.3,2001
+-1,United States,Philadelphia Inquirer,1936,1.06E+13,Media,Walter Annenberg,98,media,4,2001
+90,Switzerland,Automation Center,1957,2.79E+11,Technology-Computer,Walter Haefner,64,computer services,5.3,2001
+69,United States,Piewit Corporation,1884,1.06E+13,Constrution,Walter Scott Jr,452,construction,1.1,2001
+-1,Hong Kong,Sun Hung Kai Properties,1963,1.69E+11,Real Estate,Walter Thomas and Raymond Kwok,23,real estate,11.5,2001
+84,Taiwan,Formosa Plastics,1954,0,Consumer,Wang Yue-che,174,petrochemicals,2.7,2001
+70,United States,Berkshire Hathaway,1962,1.06E+13,Consumer,Warren Buffett,2, Finance,32.3,2001
+72,Singapore,United Overseas Bank,1935,89285087395,Money Management,Wee Cho Yaw,490,banking,1,2001
+-1,Switzerland,Liebherr,1949,2.79E+11,Constrution,Willi and Isolde Liebherr,363,construction,1.4,2001
+69,United States,Cook Group,1963,1.06E+13,Technology-Medical,William Cook,452,medical technology,1.1,2001
+78,United States,Guardian Industries,1932,1.06E+13,Non-consumer industrial,William Davidson,198,glass,2.3,2001
+-1,United States,Ford Motor Company,1903,1.06E+13,Consumer,William Ford,363,automobiles,1.4,2001
+68,United States,NASCAR,1947,1.06E+13,Other,William France Jr,490,sports,1,2001
+53,Hong Kong,Li & Fung Group,1906,1.69E+11,Consumer,William Fung,452,supply chain,1.1,2001
+51,United States,Hearst Corporation,1887,1.06E+13,Media,William Hearst III,490,media,1,2001
+57,United States,Khol's,1962,1.06E+13,"Retail, Restaurant",William Kellogg,363,retail,1.4,2001
+-1,United States,Outdoor Systems,1947,1.06E+13,Constrution,William Levine,387,advertising,1.3,2001
+45,United States,Jabil Circuit,1966,1.06E+13,Technology-Computer,William Morean,312,computer parts,1.6,2001
+37,United States,Wm Wrigley Jr. Company,1891,1.06E+13,Consumer,William Wrigley,146,gum,3.1,2001
+52,United States,Standard Oil,1870,1.06E+13,Energy,Winthrop Rockefeller,421,oil,1.2,2001
+71,Japan,Takefuji,0,4.16E+12,Money Management,Yasuo Takei,37,finance,8.3,2001
+-1,Japan,Pasona Inc,1976,4.16E+12,"Retail, Restaurant",Yasuyuki Nambu,251,staffing services,1.9,2001
+66,Japan,Seibu Corporation,1894,4.16E+12,Real Estate,Yoshiaki Tsutsumi,167,real estate,2.8,2001
+53,Japan,Aiful,1967,4.16E+12,Money Management,Yoshitaka Fukuda,68,finance,5.2,2001

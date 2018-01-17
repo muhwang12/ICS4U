@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1515609839 source:d:\matthew wang ics4u\sorting assignment\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+
