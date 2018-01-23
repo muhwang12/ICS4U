@@ -6,10 +6,19 @@
 #include <apstring.h>
 #include <vector>
 #include <fstream>
+#include <allegro5/allegro.h>
+#include <allegro5/allegro_primitives.h>
+#include <allegro5/allegro_native_dialog.h>
+#include <time.h>
+#include <allegro5/allegro.h>
 
 //Merge sort from: https://www.geeksforgeeks.org/merge-sort/
 //Quick sort from: https://www.geeksforgeeks.org/quick-sort/
 //Insertion sort from: https://www.geeksforgeeks.org/insertion-sort/
+ALLEGRO_DISPLAY *display;
+ALLEGRO_TIMER *timer;
+ALLEGRO_BITMAP *screenBitmap;
+ALLEGRO_EVENT_QUEUE *event_queue;
 
 using namespace std;
 void merge(int arr[], int l, int m, int r);
@@ -22,6 +31,15 @@ void insertionSort(int arr[], int n);
 void drawList(int data[], int data_size, int pos);
 void randomNum(int arr[]);
 char chooseOption();
+char chooseSort();
+void drawList(int arr[], int size, int pos);
+bool allegroEventLoop();
+bool initAllegro(const char* title, const int windowWidth_c,
+		const int windowHeight_c);
+void cleanUp();
+int windowWidth;
+int windowHeight;
+void clearBitmap();
 
 struct Person {
 
@@ -87,8 +105,9 @@ int main()
     Timer timer;
 
     srand(NULL);
+    initAllegro("Sort", 640, 480);
     int arr[200];
-    vector<Billionaire> bList;
+    //vector<Billionaire> bList;
     int arr_size = sizeof(arr)/ sizeof(arr[0]);
 
     randomNum(arr);
@@ -97,7 +116,7 @@ int main()
     printArray(arr, arr_size);
 
     timer.start();
-    quickSort(arr, 0, arr_size-1);
+    mergeSort(arr, 0, arr_size-1);
     timer.stop();
 
     cout << "Sorted: " << endl;
@@ -141,7 +160,7 @@ void selectCommand(char choice)
     }
 }*/
 
-void chooseSort()
+char chooseSort()
 {
     char choice;
     cout << "(I)nsertion Sort" << endl;
@@ -157,7 +176,7 @@ void chooseSort()
     return choice;
 }
 
-void loadFile(vector<Billionaire> list)
+/*void loadFile(vector<Billionaire> list)
 {
     apstring fileName;
     ifstream fileIn;
@@ -166,7 +185,7 @@ void loadFile(vector<Billionaire> list)
     fileIn.open(fileName);
 
 
-}
+}*/
 
 /*void printBillionaire(Billionaire p)
 {
@@ -209,6 +228,7 @@ void merge(int arr[], int l, int m, int r)
     j = 0; // Initial index of second subarray
     k = l; // Initial index of merged subarray
     while (i < n1 && j < n2){
+        drawList(arr, 200, k);
         if (L[i] <= R[j]){
             arr[k] = L[i];
             i++;
@@ -327,6 +347,130 @@ void printArray(int A[], int size)
     int i;
     for (i = 0; i < size; i++)
         cout << A[i] << " " << endl;
+}
+
+bool initAllegro(const char* title, const int windowWidth_c,
+		const int windowHeight_c) {
+
+	//initialize display
+	al_init();
+	display = al_create_display(windowWidth_c, windowHeight_c);
+	windowWidth = windowWidth_c;
+	windowHeight = windowHeight_c;
+
+	// Always check if your allegro routines worked successfully.
+	if (!display) {
+		std::cerr << "allegro error: failed to initialize display!"
+				<< std::endl;
+		return false;
+	}
+    int fps = 60;
+	ALLEGRO_TIMER *timer = al_create_timer(1.0 / fps);
+
+	if (!timer) {
+		std::cerr << "allegro error: failed to create timer!" << std::endl;
+		al_destroy_display(display);
+		return false;
+	}
+
+	ALLEGRO_BITMAP *screenBitmap = al_create_bitmap(windowWidth_c, windowHeight_c);
+
+	if (!screenBitmap) {
+		std::cerr << "allegro error: failed to create bitmap!" << std::endl;
+		al_destroy_display(display);
+		al_destroy_timer(timer);
+		return false;
+	}
+
+	ALLEGRO_EVENT_QUEUE *event_queue = al_create_event_queue();
+	if (!event_queue) {
+		std::cerr << "allegro error: failed to create allegro event queue!"
+				<< std::endl;
+		al_destroy_bitmap(screenBitmap);
+		al_destroy_display(display);
+		al_destroy_timer(timer);
+		return false;
+	}
+
+	if(!al_install_mouse()) {
+		std::cerr << "allegro error:  could not init mouse'" << std::endl;
+		cleanUp();
+		return false;
+	}
+
+	if (!al_init_primitives_addon()) {
+		std::cerr << "allegro error: could not init primitives" << std::endl;
+		al_destroy_event_queue(event_queue);
+		al_destroy_bitmap(screenBitmap);
+		al_destroy_display(display);
+		al_destroy_timer(timer);
+		return false;
+	}
+
+	al_register_event_source(event_queue, al_get_display_event_source(display));
+	al_register_event_source(event_queue, al_get_timer_event_source(timer));
+	al_register_event_source(event_queue, al_get_mouse_event_source());
+
+	al_start_timer(timer);
+
+	al_clear_to_color(al_map_rgb(0, 0, 0));
+	al_set_window_title(display, title);
+	al_flip_display();
+
+	return true;
+}
+
+bool allegroEventLoop() {
+
+	while (true) {
+		ALLEGRO_EVENT ev;
+		al_wait_for_event(event_queue, &ev);
+
+		if (ev.type == ALLEGRO_EVENT_TIMER) {
+
+		} else if (ev.type == ALLEGRO_EVENT_DISPLAY_CLOSE) {
+
+			return false;
+		}
+		if (ev.type == ALLEGRO_EVENT_MOUSE_AXES
+				|| ev.type == ALLEGRO_EVENT_MOUSE_ENTER_DISPLAY) {
+
+
+		} else if (ev.type == ALLEGRO_EVENT_MOUSE_BUTTON_DOWN) {
+
+		}
+
+	}
+	return true;
+}
+void clearBitmap()  {
+		//this should clear the bitmap
+		al_clear_to_color(al_map_rgb(0,0,0));
+	}
+void drawList(int arr[], int size, int pos) {
+	static float xratio = ((float)windowWidth) / size;
+	static float yratio = ((float)windowHeight) / size;
+
+	static ALLEGRO_COLOR green = al_map_rgb(0, 0xff, 0);
+	static ALLEGRO_COLOR red = al_map_rgb(0xff, 0, 0);
+
+	clearBitmap();
+	for (int r = 0; r < size; r++) {
+		if (r == pos) {
+            al_draw_rounded_rectangle(r * xratio, windowHeight - arr[r]* yratio, (r+1)* xratio, windowHeight , 0.25*xratio, 0.25*xratio, red,(4<xratio/2)?4:(int)xratio/2);
+		} else {
+            al_draw_rounded_rectangle(r * xratio, windowHeight - arr[r]* yratio, (r+1)* xratio, windowHeight , 0.25*xratio, 0.25*xratio, green,(4<xratio/2)?4:(int)xratio/2);
+		}
+	}
+
+	al_flip_display();
+}
+
+void cleanUp() {
+	al_destroy_bitmap(screenBitmap);
+	al_destroy_display(display);
+	al_destroy_timer(timer);
+	al_destroy_event_queue(event_queue);
 }
 
 
