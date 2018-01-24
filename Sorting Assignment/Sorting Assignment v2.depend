@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1516818108 source:d:\matthew wang ics4u\sorting assignment v2\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<chrono>
+	<thread>
+	<apstring.h>
+	<vector>
+	<fstream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+	<time.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
